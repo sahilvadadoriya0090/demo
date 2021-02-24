@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189D377F25D1876D002EB231 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D377E25D1876D002EB231 /* facebook.png */; };
+		189D378225D189B9002EB231 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D378125D189B9002EB231 /* NotificationVC.swift */; };
 		18F89C1825D144860054544C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F89C1725D144860054544C /* AppDelegate.swift */; };
 		18F89C1A25D144860054544C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F89C1925D144860054544C /* SceneDelegate.swift */; };
 		18F89C1C25D144860054544C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F89C1B25D144860054544C /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189D377E25D1876D002EB231 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		189D378125D189B9002EB231 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		18F89C1425D144860054544C /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F89C1725D144860054544C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F89C1925D144860054544C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		18F89C1625D144860054544C /* LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				189D377E25D1876D002EB231 /* facebook.png */,
 				18F89C1725D144860054544C /* AppDelegate.swift */,
 				18F89C1925D144860054544C /* SceneDelegate.swift */,
 				18F89C1B25D144860054544C /* ViewController.swift */,
+				189D378125D189B9002EB231 /* NotificationVC.swift */,
 				18F89C1D25D144860054544C /* Main.storyboard */,
 				18F89C2325D144870054544C /* Assets.xcassets */,
 				18F89C2525D144870054544C /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F89C2725D144870054544C /* LaunchScreen.storyboard in Resources */,
+				189D377F25D1876D002EB231 /* facebook.png in Resources */,
 				18F89C2425D144870054544C /* Assets.xcassets in Resources */,
 				18F89C1F25D144860054544C /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F89C2225D144860054544C /* LocalNotification.xcdatamodeld in Sources */,
+				189D378225D189B9002EB231 /* NotificationVC.swift in Sources */,
 				18F89C1C25D144860054544C /* ViewController.swift in Sources */,
 				18F89C1825D144860054544C /* AppDelegate.swift in Sources */,
 				18F89C1A25D144860054544C /* SceneDelegate.swift in Sources */,
